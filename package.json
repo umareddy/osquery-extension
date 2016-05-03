@@ -1,0 +1,30 @@
+{
+  "name": "osquery-extension",
+  "version": "0.0.1",
+  "description": "Module to build an OSQuery extension. Uses Apache Thrift RPC module.",
+  "main": "thriftInterface.js",
+  "dependencies": {
+    "thrift": "^0.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umareddy/osquery-extension"
+  },
+  "keywords": [
+    "osquery",
+    "extension",
+    "thrift",
+    "plugin",
+    "table-plugin"
+  ],
+  "author": "Uma Reddy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/umareddy/osquery-extension/issues"
+  },
+  "homepage": "https://github.com/umareddy/osquery-extension"
+}

@@ -1,4 +1,17 @@
 # osquery-extension
+#Overview
+This software module enables one to add table plugins to OSQuery. The data for the new tables could come from many sources, for example:
+1. Data could come from invoking operating system API calls
+2. Data could come from making a REST API call to an external server
+3. The data could come from a log file
+
+You could perform joins between OSQuery base tables and the extension tables to obtain unique insights into your infrastructure.
+
+The extension + table plugin concept can quickly enable the integration of data which is not yet available as a part of base OSQuery. If you could write a REST service on a Windows server then the Windows OS related infromaion can be quickly made availabe under an OSQuery prompt.
+
+#Prerequisites
+OSQuery must be installed on the computer you are running this sogtware. OSQuery should be run as the same user the user which runs the commands shown here.
+
 #How to
 
 Open two terminal windows

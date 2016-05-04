@@ -1,10 +1,11 @@
 {
-  "name": "osquery-extension",
+  "name": "osquery-extension-example",
   "version": "0.0.1",
   "description": "Module to build an OSQuery extension. Uses Apache Thrift RPC module.",
-  "main": "thriftInterface.js",
+  "main": "extension.js",
   "dependencies": {
-    "thrift": "^0.9.3"
+    "readline": "^1.3.0",
+    "osquery-extension": "^0.0.1"
   },
   "devDependencies": {},
   "scripts": {
